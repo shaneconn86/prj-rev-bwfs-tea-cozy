@@ -1,0 +1,101 @@
+* {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+}
+
+header {
+  border-bottom: 1px solid seashell;
+  height: 69px;
+  padding-bottom: 20px;
+
+}
+
+header li {
+  display: inline-block;
+  margin: 20px 20px;
+  text-decoration: underline;
+}
+
+nav {
+  text-align: right;
+}
+
+#logo {
+  top: 5px;
+  left: 5px;
+  position: absolute;
+  height: 50px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+#mission {
+  padding-top: 200px;
+  height: 700px;
+  width: auto;
+  background-image: url("file:///Users/shaneconnaughton/Desktop/Atom/TeaCosy/css/resources/images/img-mission-background.jpg");
+}
+
+.mission1 {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+
+.missionText {
+  width: auto;
+  height: 30px
+}
+
+.teas {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.container {
+  justify-content: flex-start;
+}
+
+#flex {
+  flex-direction: row;
+}
+
+#flex2 {
+  flex-direction: row;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  flex-grow: 1;
+
+
+}
+
+.container {
+  display: flex;
+  max-height: 300px;
+  align-items: center;
+  justify-content: space-around;
+  position: relative;
+  margin-bottom: 50px;
+}
+
+.container2 {
+  display: flex;
+  max-height: 300px;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 150px;
+}
+
+.contact {
+  text-align: center;
+  margin-top: 50px;
+
+}
